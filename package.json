@@ -1,0 +1,26 @@
+{
+  "name": "navana-holding",
+  "version": "1.0.0",
+  "description": "It is a backend server for Navana Holding",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "start:dev": "nodemon ./src/main.js"
+  },
+  "keywords": [],
+  "author": "Ismoil Turgunpulatov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "joi": "^17.12.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.3",
+    "uuid-validate": "^0.0.3"
+  }
+}
